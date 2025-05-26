@@ -1,7 +1,7 @@
 version: '3'
 services:
   bot-backend:
-    build: .
+    build: backend
     ports:
       - "80:3000"
     volumes:
